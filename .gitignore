@@ -1,0 +1,5 @@
+bin/application.yaml
+dev/application.yaml
+application.yaml
+.idea/mi-storesapi.iml
+*.xml

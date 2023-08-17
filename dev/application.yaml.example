@@ -1,0 +1,21 @@
+APP_PORT: 8585
+CORS_ALLOWED:
+    - "*"
+
+HEADERS_ALLOWED:
+    - "X-API-KEY"
+    - "X-TOKEN"
+    - "AUTHORIZATION"
+    - "ACCESS-CONTROL-ALLOW-ORIGIN"
+    - "ACCESS-CONTROL-ALLOW-METHOD"
+    - "ACCESS-CONTROL-MAX-AGE"
+    - "Access-Control-Request-Headers"
+    - "Access-Control-Request-METHOD"
+    - "Connection"
+    - "x-requested-with"
+
+DB_HOST: localhost
+DB_PORT: 5432
+DB_NAME: jatis_dev
+DB_USER: postgres
+DB_PASSWORD: password
